@@ -26,7 +26,7 @@ const Hero = () => {
                 RealEstateCait
               </h1>
               <span className="text-black text-4xl md:text-5xl font-bold font-serif mx-2">|</span>
-              <span className="text-black text-lg md:text-xl font-sans">Sky Realty</span>
+              <span className="text-black text-lg md:text-xl font-serif">Sky Realty</span>
             </div>
           </div>
           
