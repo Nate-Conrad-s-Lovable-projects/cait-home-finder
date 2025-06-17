@@ -25,8 +25,8 @@ const Hero = () => {
               <h1 className="text-4xl md:text-5xl font-bold text-navy-900 leading-tight font-serif">
                 RealEstateCait
               </h1>
-              <span className="text-blue-600 text-4xl md:text-5xl font-bold font-serif mx-2">|</span>
-              <span className="text-blue-600 text-4xl md:text-5xl font-bold font-serif">Sky Realty</span>
+              <span className="text-navy-900 text-4xl md:text-5xl font-bold font-serif mx-2">|</span>
+              <span className="text-navy-900 text-4xl md:text-5xl font-bold font-serif">Sky Realty</span>
             </div>
           </div>
           
