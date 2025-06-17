@@ -26,20 +26,19 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              onClick={scrollToContact}
-              className="bg-navy-900 hover:bg-navy-800 text-white px-8 py-4 text-lg rounded-md transition-all duration-300 transform hover:scale-105 font-sans"
-            >
-              Get Your Free Quote
-            </Button>
-            <Button 
-              variant="outline" 
               onClick={() => {
                 const element = document.getElementById('about');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="border-navy-900 text-navy-900 hover:bg-navy-900 hover:text-white px-8 py-4 text-lg rounded-md transition-all duration-300 font-sans"
+              className="bg-transparent hover:bg-white/10 text-navy-900 border border-navy-900 hover:border-navy-800 px-8 py-4 text-lg rounded-md transition-all duration-300 font-sans"
             >
               Learn More
+            </Button>
+            <Button 
+              onClick={scrollToContact}
+              className="bg-navy-900 hover:bg-navy-800 text-white px-8 py-4 text-lg rounded-md transition-all duration-300 transform hover:scale-105 font-sans"
+            >
+              Get Your Free Quote
             </Button>
           </div>
         </div>
