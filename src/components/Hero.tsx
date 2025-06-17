@@ -21,12 +21,12 @@ const Hero = () => {
           </p>
           
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-navy-900 leading-tight font-serif mx-auto text-center">
-              RealEstateCait
-            </h1>
-            <div className="flex items-center justify-center mt-2">
-              <span className="text-black text-4xl md:text-5xl font-bold font-serif">|</span>
-              <span className="text-black text-lg md:text-xl font-sans ml-2">Sky Realty</span>
+            <div className="flex items-center justify-center">
+              <h1 className="text-4xl md:text-5xl font-bold text-navy-900 leading-tight font-serif">
+                RealEstateCait
+              </h1>
+              <span className="text-black text-4xl md:text-5xl font-bold font-serif mx-2">|</span>
+              <span className="text-black text-lg md:text-xl font-sans">Sky Realty</span>
             </div>
           </div>
           
