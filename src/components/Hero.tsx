@@ -17,18 +17,18 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="mb-6">
-            <span className="text-navy-600 font-medium text-lg tracking-wide">
+            <span className="text-navy-600 font-medium text-lg tracking-wide font-sans">
               Sky Realty
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold text-navy-900 mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-navy-900 mb-6 leading-tight font-serif">
             WORKING HARD
             <br />
             <span className="text-navy-600">FOR YOUR HOME</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
             Expert real estate services with over 8 years of experience in Utah's dynamic market. 
             Helping you find the perfect home or get the best deal when selling.
           </p>
@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               onClick={scrollToContact}
-              className="bg-navy-900 hover:bg-navy-800 text-white px-8 py-4 text-lg rounded-md transition-all duration-300 transform hover:scale-105"
+              className="bg-navy-900 hover:bg-navy-800 text-white px-8 py-4 text-lg rounded-md transition-all duration-300 transform hover:scale-105 font-sans"
             >
               Get Your Free Quote
             </Button>
@@ -46,7 +46,7 @@ const Hero = () => {
                 const element = document.getElementById('about');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="border-navy-900 text-navy-900 hover:bg-navy-900 hover:text-white px-8 py-4 text-lg rounded-md transition-all duration-300"
+              className="border-navy-900 text-navy-900 hover:bg-navy-900 hover:text-white px-8 py-4 text-lg rounded-md transition-all duration-300 font-sans"
             >
               Learn More
             </Button>
@@ -54,16 +54,16 @@ const Hero = () => {
           
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-navy-900 mb-2">100+</div>
-              <div className="text-gray-600">Happy Clients</div>
+              <div className="text-3xl font-bold text-navy-900 mb-2 font-serif">100+</div>
+              <div className="text-gray-600 font-sans">Happy Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-navy-900 mb-2">8+</div>
-              <div className="text-gray-600">Years Experience</div>
+              <div className="text-3xl font-bold text-navy-900 mb-2 font-serif">8+</div>
+              <div className="text-gray-600 font-sans">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-navy-900 mb-2">100%</div>
-              <div className="text-gray-600">Dedication</div>
+              <div className="text-3xl font-bold text-navy-900 mb-2 font-serif">100%</div>
+              <div className="text-gray-600 font-sans">Dedication</div>
             </div>
           </div>
         </div>
