@@ -20,9 +20,15 @@ const Hero = () => {
             Working Hard For Your Home
           </p>
           
-          <h1 className="text-4xl md:text-5xl font-bold text-navy-900 mb-8 leading-tight font-serif mx-auto text-center">
-            RealEstateCait | Sky Realty
-          </h1>
+          <div className="mb-8">
+            <h1 className="text-4xl md:text-5xl font-bold text-navy-900 leading-tight font-serif mx-auto text-center">
+              RealEstateCait
+            </h1>
+            <div className="flex items-center justify-center mt-2">
+              <span className="text-black text-sm font-sans">|</span>
+              <span className="text-black text-sm font-sans ml-2">Sky Realty</span>
+            </div>
+          </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
