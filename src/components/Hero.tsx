@@ -30,7 +30,7 @@ const Hero = () => {
                 const element = document.getElementById('about');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="bg-transparent hover:bg-white/10 text-navy-900 border border-navy-900 hover:border-navy-800 px-8 py-4 text-lg rounded-md transition-all duration-300 font-sans"
+              className="bg-transparent hover:bg-navy-900 text-navy-900 hover:text-white border border-navy-900 px-8 py-4 text-lg rounded-md transition-all duration-300 font-sans"
             >
               Learn More
             </Button>
