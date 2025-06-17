@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -16,19 +15,15 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-6">
-            <span className="text-navy-600 font-medium text-lg tracking-wide font-sans">
-              Sky Realty
-            </span>
-          </div>
-          
-          <h1 className="text-5xl md:text-7xl font-bold text-navy-900 mb-6 leading-tight font-serif">
-            WORKING HARD
-            <br />
-            <span className="text-navy-600">FOR YOUR HOME</span>
+          <h1 className="text-4xl md:text-5xl font-bold text-navy-900 mb-4 leading-tight font-serif">
+            RealEstateCait | Sky Realty
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
+          <p className="text-lg md:text-xl text-navy-600 mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
+            Working hard for your home
+          </p>
+          
+          <p className="text-base md:text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
             Expert real estate services with over 8 years of experience in Utah's dynamic market. 
             Helping you find the perfect home or get the best deal when selling.
           </p>
