@@ -19,13 +19,8 @@ const Hero = () => {
             RealEstateCait | Sky Realty
           </h1>
           
-          <p className="text-lg md:text-xl text-navy-600 mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
-            Working hard for your home
-          </p>
-          
-          <p className="text-base md:text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
-            Expert real estate services with over 8 years of experience in Utah's dynamic market. 
-            Helping you find the perfect home or get the best deal when selling.
+          <p className="text-lg md:text-xl text-black mb-8 max-w-2xl mx-auto leading-relaxed font-sans">
+            Working Hard For Your Home
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
